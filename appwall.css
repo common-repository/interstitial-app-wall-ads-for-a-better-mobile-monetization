@@ -1,0 +1,103 @@
+.android-title
+{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color:  #a5ca39;
+    color : #282828 ;
+    padding: 10px 0 10px 5px;
+    position: relative;
+}
+
+.iphone-title
+{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: black;
+    color: #ffffff; 
+    padding: 10px 0 10px 5px;
+    position: relative;
+}
+
+.iphone-title span a
+{
+    color: #ffffff;     
+}
+
+.android-title span a
+{
+    color : #282828 ;    
+}
+
+span a
+{
+    text-decoration: none;
+    position: absolute;
+    right : 10px;
+    top: 5px;
+    color: black;
+    padding: 5px;
+    border: 1px solid #333;
+    background-color: #f0f0f0;
+    font-size: 12px;
+}
+
+.app-item{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    border-bottom: 1px solid #E9E9E9;
+    height: 72px;
+    position: relative;
+    margin : 10px 0 10px 0;
+    padding: 0 0 10px 80px;
+        
+}
+
+.app-item .app-rating {
+    position: absolute;
+    bottom: 11px;
+}
+
+.app-item .app-description {
+     color : #333;
+     font-size : 12px;
+     padding-right: 60px;
+}
+
+.app-item-link  {
+    text-decoration: none;
+}
+
+.app-item .app-title
+{
+    font-size : 14px;
+    padding-bottom : 7px;
+}
+
+.app-item .app-thumbnail
+{
+    position: absolute;
+    left : 0px;
+    top : 0px;
+}
+
+.app-item .app-free
+{
+    position: absolute;
+    right : 9px;
+    top : 20px;
+    color: black;
+    padding: 5px 9px 5px 8px;
+    border: 1px solid #333;
+    background-color: #f0f0f0;
+}
+
+ul {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding-right: 10px;
+}
